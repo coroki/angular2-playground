@@ -1,0 +1,13 @@
+.box {
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 20px;
+}
+.box.selected {
+  background: red;
+}
+p {
+  width: 40px;
+  text-align: center;
+}

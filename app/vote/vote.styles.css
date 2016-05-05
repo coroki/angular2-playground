@@ -1,0 +1,33 @@
+.container {
+  width: 50px;
+}
+.upVote {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 50px 50px;
+    border-color: transparent transparent #999 transparent;
+    float: left;
+}
+.upVote.selected {
+    border-color: transparent transparent blue transparent;
+}
+.downVote {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 50px;
+    border-color: #999 transparent transparent transparent;
+    float: left;
+}
+.downVote.selected {
+    border-color: blue transparent transparent transparent;
+}
+.voteCount {
+  width: 100px;
+  height: 50px;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+  float: left;
+}

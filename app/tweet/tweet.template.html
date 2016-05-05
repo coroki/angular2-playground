@@ -1,0 +1,10 @@
+<div class="container">
+  <img src="{{data.imgUrl}}" />
+  <div class=info>
+    <h2 class="author">{{data.author}}</h2>
+    <h2 class="handle">{{data.handle}}</h2>
+    <p class=text>{{data.text}}</p>
+    <div class="heart" [class.selected]="data.liked" (click)="voteChanged.emit()"></div>
+    <p class=count>{{data.voteCount}}</p>
+  </div>
+</div>

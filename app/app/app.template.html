@@ -1,0 +1,15 @@
+<div>
+    <signup></signup>
+</div>
+<div>
+    <selectable-box [selected]="box.selected" [count]="box.count" (selection-changed)="onBoxSelectionChanged()"></selectable-box>
+</div>
+<div>
+    <vote [vote-count]="vote.count" [vote-value]="vote.value" (vote-changed)="onVoteChanged($event)"></vote>
+</div>
+<div>
+    <tweets></tweets>
+</div>
+<div>
+    <translations></translations>
+</div>

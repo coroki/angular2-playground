@@ -1,0 +1,5 @@
+<div class="container">
+  <div class="upVote" [class.selected]="voteValue == 1" (click)="voteChanged.emit(1)"></div>
+  <span class="voteCount">{{voteCount}}</span>
+  <div class="downVote" [class.selected]="voteValue == -1" (click)="voteChanged.emit(-1)"></div>
+</div>
